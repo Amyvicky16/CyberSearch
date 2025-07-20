@@ -1,0 +1,149 @@
+body{
+    background-color: aliceblue;
+}
+
+
+
+/* nav bar */
+.nav{
+    z-index:10;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+}
+.nav h1{
+    margin-top: 5px;
+    padding-left: 0;
+}
+.nav form input{
+    width: 400px;
+    height: 40px;
+    margin-top: 15px;
+    outline-color:rgb(0, 0, 17) ;
+}
+.nav form button{
+    background-color: rgb(1,1,63);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    padding-right:20px ;
+    padding-top:15px ;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(76, 5, 143);
+    font-size: 20px;
+}
+ul li a:hover{
+    color: rgb(16, 16, 16);
+    text-transform: uppercase;
+}
+/* end of nav bar */
+
+
+
+/* hero section */
+#Home{
+    background-image:url(../images/download.jfif);
+    background-size: calc(50%);
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Home{
+    background-color:rgb(1,1,63);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+/* end of hero section */
+
+/* .colour{
+    #61a2f8
+    rgb(1, 1, 63)
+    rgb(35, 35, 172)
+} */
+
+/* body */
+.main{
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 350px;
+    height: 400px;
+    display: block;
+    border-radius: 15px;
+    background-color: #fff;
+    text-align: center;
+    border:none;
+    box-shadow: 0px 4px 6px gray;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    filter: brightness(1.1);
+}
+.card img{
+    margin: 15px;
+    border-radius: 20px;
+}
+.card a{
+    background-color: rgb(1, 1, 63);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* end of body */
+
+
+/* About */
+
+#About{
+    display:block ;
+    box-shadow: 0px 4px 6px gray;
+}
+.head{
+    background-color: rgb(35, 35, 172);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    height: 70px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px gray;
+}
+.text{
+    background-color: #fff;
+    text-align: left;
+}
+.oneH{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.text h5 ol{
+    display: grid;
+    gap: 10px;
+}
+span{
+    color: rgb(63, 63, 243);
+    font-weight: light;
+}
+/* End of About */
